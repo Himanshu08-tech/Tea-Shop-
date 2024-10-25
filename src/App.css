@@ -1,0 +1,291 @@
+.header_outer_div{
+    display: flex;
+    height: 50px;
+   background-image: url('back.png');
+    position: relative;
+   
+}
+.header_main1{
+    width: 30%;
+text-align: center;
+}
+.header_main1 img{
+    height: 100%;
+}
+.header_main2{
+    display: flex;
+    justify-content: space-evenly;
+    width: 70%;
+    position: absolute;
+    top: 20px;
+   right:5px; 
+}
+.home_outer_div{
+    height: 680px;
+  
+    background-image: url('back.png');
+    background-size: cover;
+    position: relative;
+}
+.home_inner{
+    height: 400px;
+    width: 600px;
+    position: absolute;
+    right: 150px;
+    top: 100px;
+    text-align: center;
+    
+}
+.home_inner h3{
+    font-size: 3rem;
+    color: rgb(228, 179, 110);
+   
+}
+.home_inner h1{
+    font-size: 5rem;
+    color: rgb(255, 116, 0);
+   
+}
+.home_inner p{
+    font-size: 2rem;
+    color: rgb(228, 179, 111);
+}
+.home_inner button{
+    height: 40px;
+    width: 150px;
+    border-radius: 20px;
+    font-size: larger;
+    background-color: rgb(255, 116, 0);
+    color: white;
+    border-style: none;
+}
+.greatest_outer_div{
+    height: 800px;
+  text-align: center;
+
+}
+.greatest_outer_div h1{
+    font-size: 3rem;
+}
+.greatest_card{
+    height: 500px;
+    width: 300px;
+    
+    background-color: rgb(246, 239, 233);
+}
+.greatest_card button{
+    height: 40px;
+    width: 150px;
+    border-radius: 20px;
+    color: rgb(156, 175, 115);
+    border-color: rgb(27, 115, 144);
+    font-size: larger;
+}
+.greatest_card button:hover{
+    color: white;
+    background-color:rgb(156, 175, 115) ;
+}
+.greatest_card_outer{
+    display: flex;
+    justify-content: space-evenly;
+    height: 800px;
+}
+.shop_outer_div{
+    height: 800px;
+  text-align: center;
+    position: relative;
+}
+.shop_main1{
+    height: 350px;
+    display: flex;
+}
+.shop_inner1:hover{
+   scale: 1.1;
+}
+.shop_inner2:hover{
+    scale: 1.1;
+ }
+ .shop_inner3:hover{
+    scale: 1.1;
+ }
+ .shop_inner7:hover{
+    scale: 1.1;
+ }
+ .shop_inner5:hover{
+     scale: 1.1;
+  }
+  .shop_inner6:hover{
+     scale: 1.1;
+  }
+.shop_main2{
+    height: 350px;
+    display: flex;
+}
+.shop_inner1{
+    height: 700px;
+    width: 400px;
+    background-image:linear-gradient(rgba(238, 224, 210,0),rgba(238, 224, 210,0.4)),
+     url(' tea.avif');
+    background-size: contain;
+    position: absolute;
+    left: 50px;
+    position: relative;
+}
+.shop_inner2{
+    height: 380px;
+    width: 600px;
+    background-image:linear-gradient(  rgba(238, 224, 210,0),rgba(238, 224, 210,0.4)),
+     url('spice\ tea.avif');
+    background-size: cover;
+    position: absolute;
+   left: 480px;
+  
+}
+.shop_inner3{
+    height: 380px;
+    width: 400px;
+    background-image:linear-gradient(rgba(238, 224, 210,0),rgba(238, 224, 210,0.4)),
+     url('milk\ tea.avif');
+    background-size: cover;
+    position: absolute;
+    right: 20px;
+}
+
+.shop_inner5{
+    height: 300px;
+    width: 350px;
+    background-image:linear-gradient(rgba(238, 224, 210,0),rgba(238, 224, 210,0.4)),
+     url('fruit\ tea.jpg');
+    background-size: cover;
+    position: absolute;
+    left: 470px;
+    bottom: 20px;
+}
+.shop_inner6{
+    height: 300px;
+    width: 350px;
+    background-image:linear-gradient(rgba(238, 224, 210,0),rgba(238, 224, 210,0.4)),
+     url('oragnic\ tea.avif');
+    background-size: cover;
+    position: absolute;
+   left: 830px;
+    bottom: 20px;
+}
+.shop_inner7{
+    height: 300px;
+    width: 300px;
+    background-image:linear-gradient(rgba(238, 224, 210,0),rgba(238, 224, 210,0.4)),
+     url('matcha.avif');
+    background-size: cover;
+    position: absolute;
+    right:20px ;
+    bottom: 20px;
+}
+.shop_innertext1{
+    position: absolute;
+    bottom: 100px;
+    left: 10px;
+}
+.text{
+    font-size: 3rem;
+}
+.para{
+    color: white;
+}
+.tea_but{
+    height: 40px;
+    width: 150px;
+    border-radius: 20px;
+    color: white;
+    background-color: rgb(156, 175, 115);
+    font-size: larger;
+    border-style: none;
+}
+.shop_outer_div h1{
+    font-size: 2rem;
+    color: rgb(255, 116, 0);
+}
+.know_outer_div{
+   height:700px;
+
+   display: flex;
+}
+.know_main1{
+    width: 60%;
+    height: 500px;
+   
+    background-image: url('image2.png');
+    background-size: cover;
+    border-radius: 10px;
+    margin-top: 100px;
+}
+.know_main2{
+    width: 40%;
+    height: 400px;
+   
+   margin-left:  70px;
+   margin-top: 150px;
+}
+.know_main2 h1{
+    color: rgb(75, 75, 75);
+    font-size: 3rem;
+}
+.know_main2 button{
+    background-color: rgb(255, 116, 0);
+    color: white;
+    font-size: larger;
+    height: 50px;
+    width: 150px;
+    border-radius: 20px;
+    border-style: none;
+}
+.know_main2 p{
+    font-size: larger;
+}
+.blog_outer_div{
+    height: 500px;
+
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+.blog_main1{
+    height: 420px;
+    width: 400px;
+
+}
+.blog_most_div{
+    text-align: center;
+    font-size: 3rem;
+}
+.blog_main1 img{
+    height: 60%;
+    width: 100%;
+}
+.contact_outer_div{
+    height: 600px;
+   
+    display: flex;
+}
+.contact_main1{
+    width: 30%;
+    height: 500px;
+   margin-left: 100px;
+    background-image: url('tea.avif');
+    background-size: cover;
+   
+}
+.contact_main2{
+    width: 50%;
+    height: 500px;
+   
+    text-align: center;
+}
+.contact_main2 input{
+height: 30px;
+width: 80%;
+}
+.design{
+    text-decoration: none;
+    color: black;
+}
